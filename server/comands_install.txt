@@ -1,0 +1,31 @@
+npm init -y
+
+npm install express
+npm install typescript -D
+npx tsc --init
+npm install @types/express -D
+npm install ts-node -D
+npm install ts-node-dev -D
+npm install knex
+npm install sqlite3
+npm install cors
+npm install @types/cors -D
+npx knex --knexfile knexfile.ts migrate:latest
+>>>script>>> npm run knex:migrate
+>>>script>>> npm run knex:seed
+npm install multer
+npm install @types/multer -D
+
+Run server with:
+npx ts-node src/server.ts
+or
+npx ts-node-dev src/server.ts
+
+>>>script>>> npm run dev
+
+-----
+Validações:
+npm install celebrate
+npm install @types/hapi__joi -D
+
+

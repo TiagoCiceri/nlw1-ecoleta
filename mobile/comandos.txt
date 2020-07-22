@@ -1,0 +1,30 @@
+-- Instalação do EXPO apenas a primeira vez
+npm install -g expo-cli
+
+Criar projeto:
+expo init my-app
+
+executar o expo: npm start
+--
+npm install --save @expo/vector-icons
+npm install --save @use-expo/font
+expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+npm install @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+------npm install react-navigation/stack
+npm install @react-navigation/stack
+expo install react-native-maps
+expo install expo-constants ???
+npm install react-native-maps --save-exact
+
+expo install react-native-svg
+
+npm install --save react-native-vector-icons ??????? não sei se era pra instalar
+
+npm install axios
+expo install expo-location
+expo install expo-mail-composer
+DESAFIO....:
+npm install react-native-picker-select
+

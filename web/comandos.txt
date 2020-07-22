@@ -1,0 +1,20 @@
+-- Start project with TypeScript
+npx create-react-app web --template=typescript
+npx create-react-app xweb --template=typescript
+
+
+npm install react-icons
+npm install react-router-dom
+npm install @types/react-router-dom -D
+npm install leaflet react-leaflet
+npm install @types/react-leaflet -D
+
+--- Maps
+https://react-leaflet.js.org/docs/en/intro.html
+https://leafletjs.com/examples/quick-start/
+
+npm install axios
+npm install react-dropzone
+npm install --save @types/dropzone
+
+iniciar app=   npm start
