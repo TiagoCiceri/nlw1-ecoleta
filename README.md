@@ -20,3 +20,10 @@
   * navegar pelo mapa para ver as instituições cadastradas
   * entrar em contato com a entidade através do E-mail ou do WhatsApp
   
+## :hammer_and_wrench: Ferramentas e tecnologias utilizadas
+ * Node
+ * SQLite
+ * Insominia
+ * React
+ * React-Native
+ * Expo
